@@ -1,0 +1,69 @@
+/* Página em desenvolvimento – em breve com mais elementos personalizados para refletir meu estilo */
+
+/* Estilo global da página */
+body {
+  background-color: black;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  color: white;
+  position: relative;
+}
+
+/* Posição e tamanho do logo */
+.logo {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  max-width: 150px;
+  width: auto;
+}
+
+/* Container com imagem de fundo e centralização de conteúdo */
+.container {
+  background: url('https://i.pinimg.com/736x/15/76/b5/1576b5303fb8ef85f6c3425061267676.jpg') no-repeat center center/cover;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Bloco de conteúdo centralizado com fundo semitransparente */
+.content {
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 20px 40px;
+  border-radius: 8px;
+}
+
+.content h2 {
+  margin-bottom: 19px;
+}
+
+.content p {
+  font-size: 20px;
+}
+
+/* Estilo do botão */
+button {
+  background-color: #8A2BE2;
+  border: none;
+  border-radius: 15px;
+  padding: 10px 20px;
+  font-size: 1.2em;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-weight: bold;
+}
+
+/* Cor do botão ao passar o mouse */
+button:hover {
+  background-color: #1ABC9C;
+}
+
+/* Rodapé centralizado */
+footer {
+  text-align: center;
+  padding: 10px;
+}

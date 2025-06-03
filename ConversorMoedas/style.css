@@ -1,0 +1,73 @@
+/* Página em desenvolvimento – em breve com mais elementos personalizados para refletir meu estilo */
+
+/* Estilos Globais */
+body {
+  background-color: black; /* Cor de fundo preta */
+  margin: 0; /* Remove as margens padrão do navegador */
+  padding: 0; /* Remove o preenchimento padrão do navegador */
+  font-family: Arial, sans-serif; /* Define a fonte padrão */
+  color: white; /* Cor do texto padrão branca */
+  position: relative; /* Define posição relativa para posicionamento interno */
+}
+
+/* Estilos do Logotipo */
+.logo {
+  position: absolute; /* Posicionamento absoluto em relação ao body */
+  top: 20px; /* Distância do topo */
+  right: 20px; /* Distância da direita */
+  max-width: 150px; /* Largura máxima do logo */
+  width: auto; /* Largura automática para manter proporção */
+}
+
+/* Container com imagem de fundo */
+.container {
+  background: url('https://i.pinimg.com/1200x/95/0e/59/950e5901f8012de6bcaee734614eafe6.jpg') no-repeat center center/cover; /* Imagem de fundo centralizada e cobrindo toda a área */
+  min-height: 100vh; /* Altura mínima igual à altura da tela */
+  display: flex; /* Usa Flexbox para alinhamento */
+  justify-content: center; /* Centraliza o conteúdo horizontalmente */
+  align-items: center; /* Centraliza o conteúdo verticalmente */
+}
+
+/* Div de conteúdo para texto e botão */
+.content {
+  text-align: center; /* Centraliza o texto */
+  background-color: rgba(255, 255, 255, 0.8); /* Fundo branco semi-transparente */
+  padding: 20px 40px; /* Espaçamento interno */
+  border-radius: 8px; /* Bordas arredondadas */
+}
+
+.content h2 {
+  margin-bottom: 20px; /* Espaço abaixo do título */
+}
+
+/* Estilos do Botão */
+button {
+  background-color: #ff4b7b; /* Cor de fundo rosa */
+  border: none; /* Sem borda */
+  border-radius: 20px; /* Bordas arredondadas */
+  padding: 10px 20px; /* Espaçamento interno do botão */
+  font-size: 1.2em; /* Tamanho da fonte maior */
+  color: white; /* Cor do texto branco */
+  cursor: pointer; /* Mostra ponteiro de clique */
+  transition: background-color 0.3s ease; /* Transição suave na mudança de cor */
+  font-weight: bold; /* Fonte em negrito */
+}
+
+button:hover {
+  background-color: #1ABC9C; /* Cor do botão ao passar o mouse (verde água) */
+}
+
+/* Estilos do Rodapé */
+footer {
+  text-align: center; /* Alinha o texto ao centro */
+  padding: 10px; /* Espaçamento interno */
+}
+
+/* Estilos adicionais de texto dentro da div content */
+.content h2, .content p {
+  color: #333333; /* Cor do texto cinza escuro */
+}
+
+.content p {
+  font-size: 20px; /* Tamanho da fonte dos parágrafos */
+}

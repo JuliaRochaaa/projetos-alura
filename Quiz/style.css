@@ -1,0 +1,128 @@
+/* Página em desenvolvimento – em breve com mais elementos personalizados para refletir meu estilo */
+
+/* Estilo do corpo da página com imagem de fundo centralizada e fixa */
+body {
+  background: url("https://i.ibb.co/9HdzKbJD/imagem-quiz-convertida.png") no-repeat center center fixed;
+  background-size: cover;
+  font-family: "Gabarito", sans-serif;
+  margin: 20px;
+}
+
+/* Alinha o logo à direita */
+.logo {
+  text-align: end;
+}
+
+/* Define o tamanho do logo */
+.logo img {
+  width: 40%;
+}
+
+/* Caixa principal do jogo com fundo escuro, sombra e cantos arredondados */
+.conteudo-jogo {
+  background: rgba(0, 0, 0, 0.5);
+  box-shadow: 0 0 5px #ff4b5b;
+  margin: 30px;
+  border-radius: 70px;
+  padding: 20px;
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+/* Efeito ao passar o mouse sobre a caixa do jogo */
+.conteudo-jogo:hover {
+  background: rgba(0, 0, 0, 0.7);
+  box-shadow: 0 0 5px #19caca;
+}
+
+/* Estilo para títulos e parágrafos centralizados e com cor branca */
+h2, p {
+  text-align: center;
+  color: white;
+  padding-top: 4px;
+}
+
+/* Estilo da área de título */
+.titulo {
+  background: #ff4b5b;
+  width: 100%;
+  height: 100%;
+  padding-left: 0px;
+  border-radius: 10px;
+}
+
+/* Estrutura da área de perguntas e respostas */
+.questionario {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  width: 40%;
+  max-width: 70%;
+}
+
+/* Conteúdo interno do quiz com espaçamento entre elementos */
+.conteudo {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 100%;
+  gap: 20px;
+}
+
+/* Estilo da pergunta */
+.pergunta {
+  font-weight: 600;
+  color: white;
+}
+
+/* Estilo do contador de progresso das perguntas */
+.progresso {
+  text-align: end;
+  font-size: small;
+  font-weight: 500;
+  color: white;
+}
+
+/* Área que contém as alternativas de resposta */
+.respostas {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+/* Botões das respostas com estilo visual atrativo */
+.botao-resposta {
+  width: 100%;
+  height: 2.5rem;
+  text-align: start;
+  padding: 5px;
+  border: none;
+  cursor: pointer;
+  background: #ff4b5b;
+  color: white;
+  border-radius: 10px;
+}
+
+/* Efeito ao passar o mouse sobre as respostas */
+.botao-resposta:hover {
+  background: #19caca;
+  font-weight: 600;
+}
+
+/* Tela final exibida ao encerrar o quiz */
+.fim {
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+/* Texto da tela final */
+.fim span {
+  margin-bottom: 2rem;
+  text-align: center;
+  font-weight: 600;
+  color: white;
+}

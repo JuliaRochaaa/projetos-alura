@@ -1,0 +1,74 @@
+/* Página em desenvolvimento – em breve com mais elementos personalizados para refletir meu estilo */
+
+/* Estilo global da página */
+body {
+  background-color: black;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  color: white;
+  position: relative;
+}
+
+/* Posicionamento do logo no topo direito */
+.logo {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  max-width: 150px;
+  width: auto;
+}
+
+/* Container com imagem de fundo e alinhamento à esquerda */
+.container {
+  background: url('https://st.depositphotos.com/7695054/56785/i/600/depositphotos_567853302-stock-photo-plate-skull-crossbones-inscription-danger.jpg') no-repeat center center/cover;
+  min-height: 100vh;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+
+/* Caixa de conteúdo com fundo semi-transparente */
+.content {
+  text-align: left;
+  background-color: rgba(255, 255, 255, 0.6);
+  padding: 20px 40px;
+  border-radius: 8px;
+}
+
+.content h2 {
+  margin-bottom: 20px;
+}
+
+/* Estilo do botão */
+button {
+  background-color: #ff0b1b;
+  border: none;
+  border-radius: 20px;
+  padding: 10px 20px;
+  font-size: 1.2em;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-weight: bold;
+}
+
+/* Cor do botão ao passar o mouse */
+button:hover {
+  background-color: #1ABC9C;
+}
+
+
+.content h2, .content p {
+  color: #333333;
+}
+
+
+footer {
+  text-align: center;
+  padding: 10px;
+}
+
+.content p {
+  font-size: 20px;
+}
