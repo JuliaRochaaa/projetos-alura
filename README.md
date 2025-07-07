@@ -23,7 +23,7 @@ Jogo de "cabo de guerra" com pontuação aleatória. Personalizei com tema de he
 Versão clássica de **pedra, papel ou tesoura** contra o computador.
 
 ### 5. Quiz de Conhecimentos Gerais  
-Questionário interativo com pontuação final e perguntas variadas. Inclui personalização visual e tema.
+Questionário interativo com pontuação final e perguntas variadas. Incluí personalização visual e tema.
 
 ---
 
